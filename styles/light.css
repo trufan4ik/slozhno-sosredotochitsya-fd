@@ -6,6 +6,7 @@
   --card-text-color: #353430;
   --ftr-title-color: #FFC2E6;
   --decorator: #353430;
+  --link-focus: #353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -17,6 +18,7 @@
     --card-text-color: #353430;
     --ftr-title-color: #FFC2E6;
     --decorator: #353430;
+    --link-focus: #353430;
   }
 }
 
