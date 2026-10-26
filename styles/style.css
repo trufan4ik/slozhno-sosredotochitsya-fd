@@ -223,7 +223,7 @@
 .content-card__text a {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--accent-color);
-  border-bottom: 2px solid transparent; 
+  border-bottom: 2px solid transparent;
 }
 
 .content-card__subtitle_Regular {
@@ -352,7 +352,6 @@
   }
   .content-section_why .multitasking {
     margin-top: 20px;
-    min-width: 649px;
   }
   .content-section_why .dopamine {
     margin-top: 0;
