@@ -3,6 +3,11 @@
   --page-bg-color: #000028;
   --accent-color: #ff0070;
   --hdr-title-color: #db00ff;
-  --card-text-color: #F1B2CE;
+  --card-text-color: #f1b2ce;
   --ftr-title-color: #db00ff;
+  --content-title-text: #ff0070;
+  --decorator: #ff0070;
+  --link-focus: #f1b2ce;
+  --menu-color: #ff0070;
+  --subtitle-text-color: #000028;
 }

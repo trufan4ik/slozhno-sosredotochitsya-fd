@@ -39,11 +39,11 @@ a {
   line-height: inherit;
 }
 
-a:hover {
-  text-decoration: underline !important;
+article a:hover {
+  border-color: var(--card-text-color);
 }
 
-a:focus-visible {
-  outline: 1px solid var(--link-focus);
-  text-decoration: none !important;
+article a:focus-visible {
+  outline: 1px solid var(--card-text-color);
+  text-decoration: none;
 }

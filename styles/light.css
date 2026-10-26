@@ -1,34 +1,38 @@
 :root.theme-light {
-  --page-bg-image: url(../image/cover-image-light.png);
+  --page-bg-image: url(./image/cover-image-light.png);
   --page-bg-color: #ffeef6;
   --accent-color: #ff8dcb;
   --hdr-title-color: #ffc2e6;
   --card-text-color: #353430;
-  --ftr-title-color: #FFC2E6;
+  --ftr-title-color: #ffc2e6;
   --decorator: #353430;
   --link-focus: #353430;
+  --menu-color: #353430;
+  --subtitle-text-color: #353430;
+  --content-title-text: #353430;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --page-bg-image: url(../image/cover-image-light.png);
+    --page-bg-image: url(./image/cover-image-light.png);
     --page-bg-color: #ffeef6;
     --accent-color: #ff8dcb;
     --hdr-title-color: #ffc2e6;
     --card-text-color: #353430;
-    --ftr-title-color: #FFC2E6;
+    --ftr-title-color: #ffc2e6;
     --decorator: #353430;
     --link-focus: #353430;
+    --menu-color: #353430;
+    --content-title-text: #353430;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .header__decorator {
+    display: none;
   }
 }
 
 .theme-light .header__decorator {
-    display: none;
-  }
-
-  @media (prefers-color-scheme: light) {
-  :root:not([class="theme-dark"]) .header__decorator {
-    display: none;
-  }
+  display: none;
 }
-  
