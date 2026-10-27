@@ -13,6 +13,22 @@
 }
 
 @media (prefers-color-scheme: dark) {
+  :root {
+    --page-bg-image: url(../images/cover-image-dark.png);
+    --page-bg-color: #000028;
+    --accent-color: #ff0070;
+    --hdr-title-color: #db00ff;
+    --card-text-color: #f1b2ce;
+    --ftr-title-color: #db00ff;
+    --content-title-text: #ff0070;
+    --decorator: #ff0070;
+    --link-focus: #ff0070;
+    --menu-color: #ff0070;
+    --subtitle-text-color: #000028;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
   .header__decorator {
     display: flex;
   }

@@ -70,7 +70,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border-bottom: 2px solid var(--link-focus);
+  border-bottom: 1px solid var(--link-focus);
 }
 
 .header__theme-menu-button:focus-visible {
@@ -236,8 +236,10 @@
 
 .content-card-img {
   display: grid;
-  margin-top: 50px;
+  margin-top: 40px;
   gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .container-img img {
   width: 100%;
@@ -251,7 +253,7 @@
   min-height: 100vh;
   display: grid;
   position: absolute;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .footer__title {
@@ -332,6 +334,7 @@
   .content-section_why {
     grid-template-columns: 1fr 2fr;
     gap: 20px;
+    margin-top: 220px;
   }
 
   .content-section_why .content-section__title {
@@ -352,6 +355,7 @@
   }
   .content-section_why .multitasking {
     margin-top: 20px;
+    --subtitle-text-color: #353430;
   }
   .content-section_why .dopamine {
     margin-top: 0;
@@ -378,10 +382,14 @@
   .content-section_how .recommendations {
     margin-top: 0;
   }
+  .content-card-img {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   .picture {
     grid-column: 1 /-1;
     gap: 20px;
-    margin-top: 80px;
+    margin-top: 70px;
   }
   .sunset-img {
     grid-column: span 2;
@@ -407,11 +415,12 @@
   }
   .footer {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 60px;
     position: relative;
   }
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    margin-top: 187px;
   }
   .footer_decorated-zone::after {
     top: 20px;
@@ -462,6 +471,12 @@
 
   .content-section_why {
     min-width: 649px;
+    margin-top: 40px;
+    gap: 10px;
+  }
+
+  .content-section_why .dopamine {
+    margin-top: 10px;
   }
 
   .content-section_what {
@@ -502,5 +517,9 @@
 
   .content-section_how .recommendations {
     margin-top: 20px;
+  }
+
+  .footer__title {
+    margin-top: 0;
   }
 }
